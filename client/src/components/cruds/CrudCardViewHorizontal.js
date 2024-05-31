@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 function CrudCardViewHorizontal() {
 	const [cruds, setCruds] = useState([]);
 
-	useEffect(function () {
+	useEffect(() => {
 		async function getCruds() {
-			try {
-				const response = await axios.get(`${process.env.REACT_APP_API_URL}`);
-				setCruds(response.data);
-			} catch (error) {
-				console.log("error", error);
-			}
+		  try {
+			const response = await axios.get(process.env.REACT_APP_API_URL);
+			setCruds(response.data);
+		  } catch (error) {
+			console.log("error", error);
+		  }
 		}
 		getCruds();
-	}, []);
+	  }, []);
 
 	return (
 		<div className="container">
@@ -50,9 +50,7 @@ function CrudCardViewHorizontal() {
 								</div>
 								<div className="card-body ">
 									<h6 className="d-flex align-items-center">
-										<a className="card-subtitle m-2">
 											{crud.modelo}
-										</a>
 									</h6>
 									<p className="card-text limit-char">{crud.description}</p>
 									<p className="card-text  d-flex align-items-center">

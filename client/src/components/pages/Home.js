@@ -14,7 +14,7 @@ function Home() {
 				<b>Base de datos</b>: MongoDB Atlas usando Mongoose ODM
 			</p>
 			<p>
-				<b>Desarrollador</b>: Yefrin Perez
+				<b>Desarrollador</b>: YEFRIN
 			</p>
 		</div>
 	);
