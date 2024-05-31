@@ -20,6 +20,7 @@ const crud_create_post = (req, res) => {
 		});
 };
 
+
 // Show a particular CRUD Detail by Id
 const crud_details = (req, res) => {
 	Crud.findById(req.params.id, function (err, crud) {
