@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
 	return (
 		<div className="container" style={{ margin: 250, marginLeft: 650 }}>
-			<h1>Aplicación CRUD con MERN Stack</h1>
+			<h1>Aplicación Registro de Motocicletas </h1>
 			<p>
 				<b>Front-end</b>: React.js con React Router Dom v6+
 			</p>
