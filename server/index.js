@@ -18,6 +18,7 @@ app.use((req, res, next) => {
 	next();
 });
 
+
 // Rutas
 app.use("/api/motorcycles", crudRoutes);
 
