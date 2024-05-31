@@ -1,56 +1,44 @@
-# 🤘 MERN CRUD app
+**NAME PROJECT
+**
+# MERN CRUD- Table-Motocycles 
 
-MERN Stack CRUD built with React v17+, RRDv6+, Node.js, Express.js MongoDB and Mongoose ODM.
+Project Description
 
-**You can import the JSON File named 'Cruds' to your MongoDB. You will find it in the Server Folder**
 
-[Download](https://github.com/jackbalageru/MERN-CRUD) | [Developer Portfolio](https://henok.us)
+Table-Motocycles: Table-Motocycles: is an application that reflects the use of a simple stack (Node.js, React, MongoDB, etc.), whose purpose is to make a record of the types of motorcycles in the stack.
 
-**Developed with ❤️ by [Henok R. Bedassa](https://henok.us/). If you love my project please star ⭐️ my repo!**
+clone the repository: https://github.com/yefringeovany/Table-yefrin.git
 
-## Table View
+##imgs
+![cddd](https://github.com/yefringeovany/Table-yefrin/assets/63132773/1d08a5ee-6985-4e50-83a7-3d9eaa10176a)
+This is the home view of the app
 
-You will find all the CRUD operations here. Create, Read, Update and Delete
+![Captura de pantalla 2024-05-30 205833](https://github.com/yefringeovany/Table-yefrin/assets/63132773/014d89ac-df62-408e-9042-b6812f603bfa)
 
-[![image](https://atlanticplc.com/wp-content/uploads/mern-crud/CRUD_Table_View.png)](https://henok.us/)
+view to create motorcycle
 
-## CRUD Form
+![Captura de pantalla 2024-05-30 210119](https://github.com/yefringeovany/Table-yefrin/assets/63132773/48169a49-0aac-458e-aede-c8a69825f397)
 
-Here you can create new data
+motorcycle creation view, and actions
 
-[![image](https://atlanticplc.com/wp-content/uploads/mern-crud/CRUD_Create.png)](https://henok.us/)
+![Captura de pantalla 2024-05-30 210417](https://github.com/yefringeovany/Table-yefrin/assets/63132773/013c3fff-b658-4617-8aaf-7d81807de01a)
 
-## Grid View
+view of motorcycles in stock
 
-This is an optional Grid View
+![Captura de pantalla 2024-05-30 210542](https://github.com/yefringeovany/Table-yefrin/assets/63132773/2e9362ea-4f04-4a4f-84da-d79f792a3ba5)
 
-- Divided to 4 Cols
-- Clickabel Phone and Web URL
+view motorcycle cards
 
-[![image](https://atlanticplc.com/wp-content/uploads/mern-crud/CRUD_Grid_View.png)](https://henok.us/)
+![Captura de pantalla 2024-05-30 210730](https://github.com/yefringeovany/Table-yefrin/assets/63132773/1766f23d-6cb8-436a-92e5-18b1a02fb232)
 
-## List View
-
-This is an optional List View
-
-- Clickabel Phone and Web URL
-
-[![image](https://atlanticplc.com/wp-content/uploads/mern-crud/CRUD_List_View.png)](https://henok.us/)
-
-## Details View
-
-Details view by Id
-
-- Clickabel Phone and Web URL
-
-[![image](https://atlanticplc.com/wp-content/uploads/mern-crud/CRUD_Details_Page.png)](https://henok.us/)
+view motorcycle information
 
 ## Installation
 
 1. Clone repository
 
-```shell
-git clone https://github.com/jackbalageru/MERN-CRUD.git
+```
+https://github.com/yefringeovany/Table-yefrin.git
 ```
 
 ## Install Client (React Files)
@@ -93,22 +81,5 @@ npm i
 nodemon server
 ```
 
-## Install Database (JSON File)
-
-2. Get in the server folder
-
-```shell
-cd server
-```
-
-3. Import the following file to your MongoDB
-
-```shell
-Cruds
-```
-
-## Support
-
-For any additional information please refer to [Henok R. Bedassa](https://henok.us).
 
 **Thank you**
