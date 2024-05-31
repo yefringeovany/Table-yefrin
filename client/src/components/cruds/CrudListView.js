@@ -50,9 +50,7 @@ function CrudListView() {
 								</div>
 								<div className="card-body ">
 									<h6 className="d-flex align-items-center">
-										<a>
-											Modelo: {crud.modelo}
-										</a>
+										 Modelo: {crud.modelo}
 									</h6>
 									<p className="card-text limit-char">{crud.description}</p>
 									<p className="card-text  d-flex align-items-center">
