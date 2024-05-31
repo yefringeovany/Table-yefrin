@@ -10,7 +10,9 @@ const crud_index = (req, res) => {
 // Create New CRUD
 const crud_create_post = (req, res) => {
 	let crud = new Crud(req.body);
-	crud.save().then((crud) => {
+	crud
+		.save()
+		.then((crud) => {
 			res.send(crud);
 		})
 		.catch(function (err) {
